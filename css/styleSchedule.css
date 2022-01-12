@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/258850205_435553891580965_7879268305490836256_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Aj0xhAmxO78AX8rIPuN&_nc_ht=scontent.fsgn2-4.fna&oh=03_AVKw9pwM8FwG3i3N9VrqycHSNYd3bm9MNhf-YmW-eIgzSA&oe=61F1C062);
+  background-size: 100%;
+  font-family: Montserrat;
+}
+.title {
+  padding: 60px 0px 35px 0px;
+  height: 20px;
+  width: 100vw;
+  background-color: #aa33cc;
+  margin: 0px auto 10px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+.row {
+  width: 70%;
+  margin: 10px auto;
+
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.buttonRow {
+  width: 40%;
+  margin: 10px auto;
+  padding: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 30%;
+  margin: auto;
+  height: 35px;
+  font-size: 25px;
+  background-color: #aa33cc;
+  font-weight: 250;
+  color: #55cc33;
+  
+}
+.btn:hover {
+  
+  font-weight: 400;
+}
+.mid {
+  width: 35%;
+  height: 40px;
+  margin: 2px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #aa33cc;
+  font-weight: 700;
+  color: #55cc33;
+}
+.match {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.dateTime {
+  height: 50%;
+  width: calc(25%-6px);
+  text-align: center;
+  font-size: 18px;
+}
+.matchInfo {
+  width: 70%;
+  margin: 3px;
+}
+.teamImg {
+  height: 50px;
+  width: 50px;
+}
+.team {
+  padding: 5px;
+  display: flex;
+  
+}
+.team > a {
+  line-height: 50px;
+  font-size: 20px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 3px;
+  text-decoration: inherit;
+  font-weight: 500;
+  color: #0000aa;
+}
+
+.team > a:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.teamTitle {
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+.teamLogo {
+  margin: 5px auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+.teamLogo img {
+  width: 100%;
+  height: 100%;
+}
+.teamCoach {
+  width: 250px;
+  height: 300px;
+  margin: 5px auto;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 5%;
+}
+
+.teamSet {
+  margin: 5px auto;
+  width: 700px;
+  height: 650px;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 2%;
+  
+}
+
+.teamAwards {
+  margin: 5px auto;
+  width: 300px;
+  padding: 15px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  text-align: left;
+  line-height: 20px;
+}
+.content {
+  width: 75%;
+  
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+ 
+}
+.subrow {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10px ;
+  width: auto;
+  
+}
+.subContent {
+  margin: 10px;
+  text-align: center;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #ff0000;
+  
+}
+h4 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #0000ff;
+  padding: 6px 0px;
+}
+p {
+  font-size: 22px;
+}
+.upperContent {
+  text-align: center;
+}
+.subContentTeamAwards > ul {
+  list-style-type: disc;
+  text-align: left;
+}
+.biography {
+  text-align: left;
+}
+.box{
+width: 100%;
+height: 500px;
+
+justify-content: center;
+display: flex;
+
+
+}
+
+.box div{
+ width: 90%;
+ height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+

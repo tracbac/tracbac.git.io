@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: Montserrat;
+  background: url(https://mir-s3-cdn-cf.behance.net/projects/original/b9a60184223221.Y3JvcCwyMDYzLDE2MTQsNDA4LDA.png);
+  background-size: 100%;
+}
+body img {
+  padding: 70px 10px 25px 0px;
+  width: 30%;
+  height: 30%;
+}
+.img {
+  width: 100%;
+  justify-content: center;
+}
